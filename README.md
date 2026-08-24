@@ -225,27 +225,6 @@ Type `yes` when prompted. This will remove:
 - Internet gateways
 - VPCs
 
-## Learning Outcomes
 
-After completing this demo, you will understand:
-1. How to create VPC peering connections between regions
-2. How to configure routing for VPC peering
-3. How to set up security groups for cross-VPC communication
-4. How to use Terraform provider aliases for multi-region deployments
-5. How to test and verify VPC peering connectivity
 
-## Additional Resources
 
-- [AWS VPC Peering Documentation](https://docs.aws.amazon.com/vpc/latest/peering/)
-- [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-- [VPC Peering Best Practices](https://docs.aws.amazon.com/vpc/latest/peering/vpc-peering-basics.html)
-
-## Next Steps
-
-To extend this demo, you could:
-1. Add more subnets (private subnets)
-2. Implement NAT gateways
-3. Add VPC Flow Logs for traffic analysis
-4. Create additional EC2 instances
-5. Set up a VPN connection
-6. Implement Transit Gateway for complex topologies
